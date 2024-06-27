@@ -1,0 +1,30 @@
+/* src/Chart.css */
+
+.chart-container {
+  max-width: 800px; /* Limit chart width for responsiveness */
+  margin: auto;
+  padding: 20px;
+}
+
+.chart-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.timeframe-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.timeframe-btn:hover {
+  background-color: #0056b3;
+}
